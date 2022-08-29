@@ -1,3 +1,6 @@
+"""
+This file acts as main file. It runs all attacks to generate the adversarial images and obtains the detection rate and false positive rate for each attack.
+"""
 import numpy as np
 import json
 import os

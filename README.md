@@ -6,3 +6,6 @@ are typically still classified as their original class.
 Hence, shuffling can act as a detection mechanism for adversarial images. The idea is to compare a CNN's prediction for an image before and after shuffling.
 If the two predictions are different, the detector will declare the image adversarial;
 If the two predictions are identical (in terms of category, not probability), the detector will declare the image clean. 
+
+This project generates adversarial images for various attacks and runs the detector to obtain a detection rate and a false positive rate for each attack.
+It contains code to generate all attacks (except the EA attack) and run the detector. The adversarial images from the EA attack are obtained separately, but the detector can still be run on them.

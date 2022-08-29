@@ -1,3 +1,6 @@
+"""
+This file contains the functions for the attacks used in this project. Only the EA attack is elsewhere.
+"""
 from __future__ import division, absolute_import, print_function
 import argparse
 

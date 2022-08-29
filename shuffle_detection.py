@@ -1,6 +1,7 @@
 '''
-Shuffle adversarial images with shuffle sizes: 16,32,56,112.
-Check how the CNNs classify the shuffled adverarial images.
+Shuffle ancestor and adversarial images with a given shuffle size.
+Compare the CNN predictions on an image before and after shuffling.
+Output the detection result and the false positive result.
 '''
 
 # general
